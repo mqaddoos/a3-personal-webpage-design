@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 
-<head>
-   <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
     <title>My Personal Site</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +30,16 @@
         line-height: 1;
       }
 
+      .section3-content-container {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 40px;
+        line-height: 1;
+      }
+      
+      .section3-bg-container{
+        background-color: grey;
+      }
       
       nav {
         font-family: "Heebo", sans-serif;
@@ -69,8 +79,8 @@
         padding-left: 40px;
         padding-bottom: 0px;
       }
-      
-            h2 {
+
+      h2 {
         font-family: "Hammersmith One", sans-serif;
         font-size: 185px;
         color: #482627;
@@ -87,23 +97,38 @@
         line-height: 0.5;
         margin: 30;
       }
-      
-            p {
+
+      p {
         color: #482627;
-        font-size: 30px;
+        font-size: 20px;
         font-family: "Heebo", sans-serif;
-        font-weight: 200;
+        font-weight: 250;
         text-align: center;
         line-height: 1.3;
         margin: 30;
       }
-  </style>
+
+      .container {
+        margin: 0 auto;
+        padding: 20px;
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto auto;
+        background-color: white;
+        gap: 20px 20px;
+      }
+      
+      .bathroom-mirror{
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
   </head>
 
 
-<body>
-  
-     <div class="head-container">
+  <body>
+    <div class="head-container">
       <div class="section1-content-container">
 
         <nav>
@@ -116,13 +141,36 @@
           </ul>
         </nav>
         <h1>A LiTTLE SWEET GLiMPSE OF ME</h1>
-
-        <p>
-          Welcome to my personal digital space!
+        <p> AKA About Me
         </p>
       </div>
     </div>
-  
-  
+
+    <div class="section2-content-container">
+      <p>
+        I’m a second-year Global Business and Digital Arts student at the University of Waterloo.
+        I’m inspired by sports culture and the way fashion, luxury, and athletics are merging more
+        than ever in this era. I’m also driven by storytelling, human connection, and the diverse
+        dynamics that shape how we express identity and culture.
+      </p>
+
+      <div class="container">
+        <div class="grid">
+          <image class="bathroom-mirror" src="IMG_8040.jpeg"></image>
+        </div>
+          <div class="grid">
+          <image class="bathroom-mirror" src="IMG_8040.jpeg"></image>
+        </div>
+      </div>
+       </div>  
+     <div class="section3-bg-container">
+      <p class="section3-content-container">
+      MY PHILOSOPHY:
+      FiND SOMETHING POSiTiVE WHEN YOU ARE IN THE WORST. YOU WILL NEVER LOSE YOUR WAY.
+
+      </p>
+    </div>
+ 
+
   </body>
 </html>
